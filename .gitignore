@@ -1,0 +1,36 @@
+# Ignore target directories
+target/
+build/
+**/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+/nbproject/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
